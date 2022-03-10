@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+
+
+/* background-color: hsl(217, 19%, 38%); */
+.card-container{
+    background: hsl(217, 19%, 24%);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 40%;
+    /* padding: ; */
+
+}

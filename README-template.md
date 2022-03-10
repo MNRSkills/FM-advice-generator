@@ -46,6 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 ### Built with
+Javascript vanilla
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -59,6 +60,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+
+Asynchronous ---
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
