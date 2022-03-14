@@ -10,7 +10,6 @@ async function adviceAPI() {
     card.appendChild(h1);
     const fetching = await fetch(advice);
     const response = await fetching.json();
-    console.log("HOW MANY Q", response);
     const adviced = await ' " '+ response.slip.advice + ' " ';
     const quoteNum = await "ADVICE #" + response.slip.id;
     p.innerHTML = quoteNum;
