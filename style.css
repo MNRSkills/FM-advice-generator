@@ -1,17 +1,62 @@
-.container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(218, 23%, 16%);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  --neon-green: hsl(150, 100%, 66%);
+  --dark-blue: hsl(218, 23%, 16%);
+  --card-blue: hsl(217, 19%, 24%);
+  --light-cyan: hsl(193, 38%, 86%);
+  --card-boxshadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  padding: 25px;
+  font-weight: 800;
+}
 
-/* background-color: hsl(217, 19%, 38%); */
-.card-container{
-    background: hsl(217, 19%, 24%);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    width: 40%;
-    /* padding: ; */
+.card-container {
+  border-radius: 10px;
+  /* width: 100%; */
+  max-width: 375px;
+  background: var(--card-blue);
+  box-shadow: var(--card-boxshadow);
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .card-advice p {
+  color: var(--neon-green);
+  padding-top: 25px;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 2px;
+}
 
+.card-container .card-advice h1 {
+  color: var(--light-cyan);
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+.card-container span {
+  padding-bottom: 60px;
+}
+
+.card-container .card-dice {
+  background-color: var(--neon-green);
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+}
+
+.card-container .card-dice img {
+  width: 1.7em;
 }
